@@ -5,6 +5,7 @@ import json
 import numpy as np
 from .read_openpose import read_openpose
 
+
 def coco_extract(dataset_path, openpose_path, out_path):
 
     # convert joints to global order
